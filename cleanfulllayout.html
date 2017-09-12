@@ -31,28 +31,60 @@
 				font-size: 20px;  /* important to declare font-size here, otherwise will be 0*/
 				text-align: center;
 			}
+			
+			
+			
 			#sidebar{
 				display: inline-block;
 				width: 475px;
-				
+				text-align:left;
 				margin-right: 5px;
 				padding:40px;
 			}
 			#content{
 				display: inline-block;
 				width: 475px;
+				text-align:left;
 				margin-left: 5px;
 				padding:40px;
+				margin-top:150px;
 			}
-
-
+			#linktotop{
+			
+				position:absolute;
+				
+				left:1425px;
+				
+			}
+			
+			#leftlinktotop{
+				position:absolute;
+			
+				left:400px;
+			}
+			
+			#header{
+				position:fixed;
+				width:100%;
+				padding:20px;
+				z-index:100;
+				border-radius:10px;
+				
+				
+						}
+			
+			
+			
+			
 		</style>
 	</head>
 	<body>
+		
+		<div id="header" class="box"> <h1>Header</h1> </div>
 		<div id="container">
 			
-			<div id="header" class="box"> <h1>Header</h1>
-			</div><div id="sidebar" class="box"><h2>Sidebar</h2> <br> <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+			
+			<div id="sidebar" class="box"><h2>Sidebar</h2> <br> <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
 			sed diam nonummy nibh euismod tincidunt ut laoreet dolore
 			magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
 			quis nostrud exerci tation ullamcorper suscipit lobortis nisl
@@ -90,7 +122,8 @@
 			quam nunc putamus parum claram, anteposuerit litterarum formas
 			humanitatis per seacula quarta decima et quinta decima. Eodem
 			modo typi, qui nunc nobis videntur parum clari, fiant sollemnes
-			in futurum.</p>
+			in futurum.</p> <a href="#"><img id= "leftlinktotop" img src= "arrow.png"></a>
+			
 			</div><div id="content" class="box"><h2>Content</h2> <br> <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
 			sed diam nonummy nibh euismod tincidunt ut laoreet dolore
 			magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
@@ -129,7 +162,7 @@
 			quam nunc putamus parum claram, anteposuerit litterarum formas
 			humanitatis per seacula quarta decima et quinta decima. Eodem
 			modo typi, qui nunc nobis videntur parum clari, fiant sollemnes
-			in futurum.</p>
+			in futurum.</p><a href="#"> <img id= "linktotop" img src="arrow.png"></a>
 			</div><div id="footer" class="box"><h2>Footer</h2>
 			</div>
 
