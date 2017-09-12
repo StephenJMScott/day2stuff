@@ -1,0 +1,74 @@
+    #container
+			{
+				margin-right:auto; /*center container with margins left & right set to auto*/
+				margin-left:auto;
+				width:960px;	/*to center an element it must have a fixed width*/
+				border-radius: 10px;
+				padding: 10px;
+				font-size: 0; /* font-size:0 removes problem spaceing issue for inline-block*/
+			}
+	.box {
+		background-color: gray;
+		color: red;
+		font-size:20px;
+	}
+
+	.saleImage { 
+		position:absolute;
+		top:-20px;
+		left:1700px;
+		
+	}
+
+    #body{
+    	text-align: center;
+    	width:700px;
+    }
+    
+    #sale{
+    	text-align:center;
+    }
+
+
+   #left{
+   	display: inline-block;
+				width: 370px;
+				text-align:left;
+				margin-left: 5px;
+				padding:40px;
+				margin-top:150px;
+   }
+	
+	#right{
+		display: inline-block;
+				width: 370px;
+				text-align:left;
+				margin-left: 5px;
+				padding:40px;
+				margin-top:150px;
+	}
+	#footer{
+		position: fixed;
+		text-align: center;
+		width:100%;
+		height:150px;
+		bottom:0;
+	}
+	#header {
+		
+		text-align: center;
+		width: 960px;
+		height: 100px;
+	}
+	
+	#tothetop{
+		position: absolute;
+		top:50px;
+		left:50%;
+		
+	}
+	
+	
+	h1 {
+		padding-top: 20px;
+	}
